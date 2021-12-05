@@ -5,6 +5,7 @@ import footnotes from 'remark-footnotes';
 import headings from 'remark-autolink-headings';
 import unwrapImages from 'remark-unwrap-images';
 import slug from 'remark-slug';
+import netlify from '@sveltejs/adapter-netlify'
 
 const config = {
 	extensions: ['.svelte', '.md'],
@@ -21,7 +22,7 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		adapter: adapter()
+		adapter: netlify()
 	}
 };
 
