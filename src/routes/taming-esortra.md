@@ -110,7 +110,7 @@ Using the design goal and vision I started a period of ideation. This involved a
 ### Concept 1: Motivation treasure hunt
 The idea behind this concept is to get motivated by starting. Every physical activity leads to a ‘motivation’ as a reward. This can be a self-recorded message, a funny cat video, encouragement by a friend or many other things. The focus of this concept is on structure, self-efficacy and variable rewards.
 
-[View a pdf of the flow](img/concept-1.pdf)
+<a href="/img/concept-1.pdf" target="_blank">View a pdf of the flow</a>
 </div>
 <div>
 
@@ -126,7 +126,7 @@ This concept is based on a metaphor, where you are a character in the game and y
 ### Concept 3: Bluff
 This is a so-called shell game, based on the card game lying. At the end of every week there is a game with other players. Until that game starts, you have a week to unlock cards. You can unlock a card by completing a challenge. These challenges are linked to physical challenges. Unlocking cards can help you with the game. The focus of this concept is on the social part, creating a deadline, changing the focus (means to an end) and fun.
 
-[View a pdf of the flow](img/concept-3.pdf)
+<a href="/img/concept-3.pdf" target="_blank">View a pdf of the flow</a>
 </div></div>
 
 <img src="img/concept-2.jpg" alt="Flow of concept 2" class="full-bleed" />

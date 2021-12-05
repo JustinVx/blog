@@ -9,7 +9,7 @@ intro: Concept design for a tool to help teachers with the administrative pressu
 
 This entire project was done in just two days and entirely as an individual project. In two days I went through the process of a *Discovery*, *Define*, *Ideate* and *Develop* phase. 
 
-An English version is not (yet) available, but the Dutch version can be found by [clicking on this link](/img/klassistent.pdf).
+An English version is not (yet) available, but the Dutch version can be found by <a href="/img/klassistent.pdf" target="_blank">clicking on this link</a>.
 
 
 
