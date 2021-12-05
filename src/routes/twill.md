@@ -7,3 +7,5 @@ client: Twill by Maersk
 description: Helping small businesses ship goods easily without logistics experience
 intro: At this succesfull subsidiary of Maersk, I'm working on improving the experience for small companies that want to ship goods from A to B, but don't have the experience or the connections that other companies have.
 ---
+
+I'm currently working on this project. Ask me for more information.
