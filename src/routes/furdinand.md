@@ -8,8 +8,6 @@ featured: false
 description: A needy robot that can't stop loving
 intro: Using an iterative building-first approach, we built and designed a needy robot. I worked as one of the two engineers of the group, where I worked on building, programming and perfecting the interaction. The project involved an Arduino, laser cutting, sewing, electronics, cuteness and a lot of testing.
 ---
-![Furdinand the needy robot sitting on a terrace](img/furdinand-home.png)
-
 ## Ideation
 The first question we asked ourselves was: What does it mean to be needy? Through a workshop and exercises we explored ways in which we could express neediness. We held a number of brainstorming sessions in which we came up with needy robot ideas. We ultimately landed on the idea of a robot grabbing you and staying attached to your leg — even when you are trying to get away.
 
