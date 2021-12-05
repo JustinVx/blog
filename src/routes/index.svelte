@@ -12,7 +12,7 @@
 
 	const formatDate = (value) => {
 		const date = new Date(value);
-		return new Intl.DateTimeFormat('is-IS', {
+		return new Intl.DateTimeFormat('nl-NL', {
 			year: undefined,
 			month: 'long',
 			day: 'numeric'
@@ -25,54 +25,40 @@
 </script>
 
 <svelte:head>
-	<title>Jökull Sólberg</title>
+	<title>Justin Venbrux</title>
 </svelte:head>
 
-<div class="max-w-2xl mx-auto p-4 sm:p-8">
+<div class="max-w-none page mx-auto py-4 sm:py-8">
 	<div
-		class="flex flex-col sm:flex-row justify-between items-center mb-12 md:my-16 lg:my-24 lg:mb-32"
+		class="flex flex-col sm:flex-row justify-between items-center mb-12 md:my-16 lg:my-20 lg:mb-32"
 	>
 		<div class="order-1 sm:order-0 text-sm sm:text-base">
 			<div>
+				<div class="text-xs text-gray-500 my-4 uppercase">About me</div>
 				<p class="mb-2">
-					Ég er vörustjóri hjá <a class="font-bold" href="https://www.getsling.com">Sling</a> og
-					vinn að nýrri vöru þar sem heitir
-					<a
-						class="font-bold"
-						href="https://www.craft.do/s/0ZbFxiNPQ7j79d?fbclid=IwAR2hWTdZrhfE8iOPU33OcgyWDbky9-16XUJbBZGS67hLHS0JZuMfVO_s6JM"
-						>Inch</a
-					>. Ég hef starfað við ráðgjöf, meðal annars fyrir
-					<a class="font-bold" href="https://www.island.is/">Stafrænt Ísland</a>. Ég er stofnandi
-					<a class="font-bold" href="https://www.planitor.io/">Planitor</a> og
-					<a class="font-bold" href="https://takumi.com/">Takumi International ltd</a>. Þar á undan
-					starfaði ég sem forritari og vörustjóri hjá
-					<a class="font-bold" href="https://quizup.com">QuizUp</a>.
+					I strive to create cools thing that help people. Currently I'm working as a User Experience Designer at <a class="font-bold" href="https://www.sodastudio.nl">Soda Studio</a>. I have an academic background at the <a class="font-bold" href="https://www.tudelft.nl/en/">Delft University of Technology</a> and about 5 years worth of experience in digital product design.
 				</p>
 				<p>
-					Ég hélt úti fréttabréfinu <a class="font-bold" href="https://jokull.substack.com/"
-						>Reykjavík Mobility</a
-					> þar sem fjallað er um samgöngur og skipulag í Reykjavík.
+					I love to learn. My interests range from technology, healthcare, culture, systems, psychology and sociology to finding out what this whole web3 thing is about or trying a new recipe for kumpir. I also dabble in SwiftUI, Python and Svelte sometimes.
 				</p>
 			</div>
 		</div>
-		<div class="order-0 sm:order-1 mb-12 sm:mb-0 sm:ml-6 sm:flex-none text-center">
-			<img alt="Profile bust" src="/profile.png" class="rounded-full w-48 h-48 bg-lime " />
+	</div>
+
+	<div>
+		<div class="text-xs text-gray-500 my-4 uppercase">Work</div>
+		<div class="grid sm:grid-cols-2 gap-6 my-8">
+			<Grouper items={posts} groupForItem={getYearFromPost} let:group let:item>
+				<div class="p-4 border-2 border-gray-200 hover:-translate-y-1 bg-white rounded-2xl" slot="item">
+					<a href={`./${item.slug}`}>
+						<img class="mb-4 rounded-xl" src={item.thumbnail} alt={item.title} />
+						<div class="title font-medium text-xl font-Outfit mb-1">{item.title}</div>
+						<div class="date text-gray-600 font-light text-sm">{item.description}</div>
+						<div class="no-underline block sm:hidden mt-4 mb-2 text-sm text-bold"><a href="/" class="text-teal-500 hover:text-black">Learn more →</a></div>
+					</a>
+				</div>
+			</Grouper>
 		</div>
 	</div>
-	<div>
-		<Grouper items={posts} groupForItem={getYearFromPost} let:group let:item>
-			<div slot="group" class="my-6 first:mt-0">
-				<div class="text-xs text-gray-500">{group}</div>
-			</div>
-			<div slot="item">
-				<a
-					href={`./${item.slug}`}
-					class="item block mb-4 pb-4 border-b border-gray-100 last:border-none last:mb-0"
-				>
-					<div class="title font-medium text-xl font-Outfit mb-1">{item.title}</div>
-					<div class="date text-gray-400 font-light text-sm">{formatDate(item.date)}</div>
-				</a>
-			</div>
-		</Grouper>
-	</div>
 </div>
+
