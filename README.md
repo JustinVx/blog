@@ -1,3 +1,1 @@
-My blog
-
-[Uses Svelte Kit, Cloudflare Workers, Tailwind CSS and MDsveX](https://www.solberg.is/sveltekit-blog)
+My personal website. Build with SvelteKit, Tailwind CSS and MDsveX. I used [this repository](https://github.com/jokull/blog) as a base.
