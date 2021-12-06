@@ -28,9 +28,9 @@
 	<title>Justin Venbrux</title>
 </svelte:head>
 
-<div class="max-w-none page mx-auto py-4 sm:py-8">
+<div class="max-w-none page mx-auto py-4 sm:py-4">
 	<div
-		class="flex flex-col sm:flex-row justify-between items-center mb-12 md:my-16 lg:my-20 lg:mb-32"
+		class="flex flex-col sm:flex-row justify-between items-center mb-10 md:my-12 lg:my-16 lg:mb-24"
 	>
 		<div class="order-1 sm:order-0 text-sm sm:text-base">
 			<div>
@@ -42,6 +42,21 @@
 					I love to learn. My interests range from technology, healthcare, culture, systems, psychology and sociology to finding out what this whole web3 thing is about or trying a new recipe for kumpir. I also dabble in SwiftUI, Python and Svelte sometimes.
 				</p>
 			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="hidden sm:grid sm:grid-cols-5 gap-x-20 lg:gap-x-16 gap-y-4 mb-12 lg:mb-24">
+			<div><img src="/svg/1Minuut.svg" /></div>
+			<div><img src="/svg/KLM.svg" /></div>
+			<div><img src="/svg/DHH.svg" /></div>
+			<div><img src="/svg/Recharge.svg" /></div>
+			<div><img src="/svg/Renault.svg" /></div>
+			<div><img src="/svg/Soda.svg" /></div>
+			<div><img src="/svg/Twill.svg" /></div>
+			<div><img src="/svg/Secrid.svg" /></div>
+			<div><img src="/svg/Veringmeier.svg" /></div>
+			<div><img src="/svg/TU.svg" /></div>
 		</div>
 	</div>
 
