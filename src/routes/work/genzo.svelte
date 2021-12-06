@@ -1,5 +1,1 @@
-<script context="module">
-  location.replace("/genzo")
-</script>
-
-<h1>Hello</h1>
+<h1><a href="/genzo">Go to Genzō</a>></h1>
