@@ -93,7 +93,7 @@ We tested our redesign through paper prototypes with twelve participants. The pa
 * Users can alter any step of their trip at any given moment before and during their journey.
   This leads to a more suggestive approach as opposed to the strictly guiding approach of the previous redesign.
 
-![From the home screen you can access the menu, set activity, add/edit point on route, change the map, record your track, display points of interest and take a photo](img/finaldesign.png)
+![From the home screen you can access the menu, set activity, add/edit point on route, change the map, record your track, display points of interest and use the camera](img/finaldesign.png)
 
 <div class="grid grid-cols-2 sm:grid-cols-3 gap-12 my-16 not-prose">
 
