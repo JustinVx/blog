@@ -47,6 +47,7 @@
 
 	<div>
 		<div class="hidden sm:grid sm:grid-cols-5 gap-x-20 lg:gap-x-16 gap-y-4 mb-12 lg:mb-24">
+<<<<<<< HEAD
 			<div><img src="/svg/1Minuut.svg" alt="Logo 1Minuut"/></div>
 			<div><img src="/svg/KLM.svg" alt="Logo KLM"/></div>
 			<div><img src="/svg/DHH.svg" alt="Logo Dutch Hacking Health"/></div>
@@ -57,6 +58,18 @@
 			<div><img src="/svg/Secrid.svg" alt="Logo Secrid" /></div>
 			<div><img src="/svg/Veringmeier.svg" alt="Logo Veringmeier Verkeersmanagement" /></div>
 			<div><img src="/svg/TU.svg" alt="Logo TU Delft" /></div>
+=======
+			<div><img src="/svg/1Minuut.svg" /></div>
+			<div><img src="/svg/KLM.svg" /></div>
+			<div><img src="/svg/DHH.svg" /></div>
+			<div><img src="/svg/Recharge.svg" /></div>
+			<div><img src="/svg/Renault.svg" /></div>
+			<div><img src="/svg/Soda.svg" /></div>
+			<div><img src="/svg/Twill.svg" /></div>
+			<div><img src="/svg/Secrid.svg" /></div>
+			<div><img src="/svg/Veringmeier.svg" /></div>
+			<div><img src="/svg/TU.svg" /></div>
+>>>>>>> ec5636a9140b6baa7a440b90f67396834b4de74a
 		</div>
 	</div>
 
