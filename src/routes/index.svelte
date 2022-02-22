@@ -36,10 +36,10 @@
 			<div>
 				<div class="text-xs text-gray-500 my-4 uppercase">About me</div>
 				<p class="mb-2">
-					I create cools things that help people. Currently I'm working as a User Experience Designer at <a class="font-bold underline" href="https://www.sodastudio.nl">Soda Studio</a>. I have an academic background at the <a class="font-bold underline" href="https://www.tudelft.nl/en/">Delft University of Technology</a> and about 5 years worth of experience in digital product design.
+					I create cools things that help people. Currently I'm working as a User Experience Designer at <a class="font-bold underline" href="https://www.sodastudio.nl">Soda Studio</a>. I have an academic background at the <a class="font-bold underline" href="https://www.tudelft.nl/en/">Delft University of Technology</a> and close to 5 years worth of experience in digital product design.
 				</p>
 				<p>
-					I love to learn. My interests range from technology, healthcare, culture, systems, psychology and sociology to finding out what this whole web3 thing is about or trying a new recipe for kumpir. I also dabble in SwiftUI, Python and Svelte sometimes.
+					I love to learn. My interests range from technology, psychology, healthcare, culture, systems and sociology to trying a new recipe for kumpir or finding out that some owls sleep on their bellies. I also dabble in SwiftUI, React and Svelte sometimes.
 				</p>
 			</div>
 		</div>
