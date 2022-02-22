@@ -8,13 +8,13 @@ description: Helping female patients take their medication in a safer and easier
 intro: For the medical start-up LiGalli, I worked on designing an MVP for the MedRing companion app. An app that helps female patients take their medication in a safer and easier way.  
 ---
 
-[LiGalli](https://www.ligalli.health) is a medical start-up focused on enhancing the quality of life and care of women through intelligent drug delivery and diagnostics. They are in the process of developing the MedRing. The MedRing is a vaginal ring that can deliver medication on regular schedule and in the future can also be used to monitor diagnostics. LiGalli has their market launch planned for 2024.
+[LiGalli](https://www.ligalli.health) is a medical start-up focused on enhancing the quality of life and care of women through intelligent drug delivery and diagnostics. They are in the process of developing the MedRing. The MedRing is a vaginal ring that can deliver medication on a regular schedule and in the future can also be used to monitor diagnostics. LiGalli has its market launch planned for 2024.
 
 ![The MedRing is a small ring with hinge, biosensor, drug reservoir, antenna and pump](img/medring.png)
 
-LiGalli is developing a companion app that can be used to control the medication that is being delivered by the MedRing. For this companion app I worked in a small team of designers, where we deliverd a design for an MVP within five weeks. We focused on creating a intuitive and innovative app that empowers women to take control over their health. Our goal was to help women manage their treatment in a clear, reliable and hassle-free way and to give understandable and condensed insights in their progress.
+LiGalli is developing a companion app that can be used to control the medication that is being delivered by the MedRing. For this companion app, I worked in a small team of designers, where we delivered a design for an MVP within five weeks. We focused on creating an intuitive and innovative app that empowers women to take control over their health. Our goal was to help women manage their treatment in a clear, reliable and hassle-free way and to give understandable and condensed insights into their progress.
 
-We split the core funtionality of the app in an onboarding part, a scheduling part and an insights parts. Within five weeks we created the UX design and UI design, did a usability test with six participants which we used to improve the design and also designed a concept for the back-office. I was mostly responsible for the scheduling part and the back-office.
+We split the core functionality of the app into an onboarding part, a scheduling part, and an insights part. Within five weeks we created the UX design and UI design, did a usability test with six participants which we used to improve the design, and also designed a concept for the back-office. I was mostly responsible for the scheduling part and the back-office.
 
 
 
